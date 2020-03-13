@@ -1,0 +1,80 @@
+header{
+    height:100vh;
+    background-image:url("../banner.jpg");
+    background-position: center;
+    background-size: cover;
+    letter-spacing: 2px;
+
+}
+nav{
+    background: transparent;
+    border-bottom: 1px solid yellowgreen;
+}
+
+header button{
+    background: transparent;
+    border:2px solid yellowgreen;
+    color:yellowgreen;
+    padding:5px;
+    font-size:26px;
+}
+h1{
+    font-size:55px;
+}
+.card img{
+    height:200px;
+}
+#reservation{
+    background-image:url('https://media.istockphoto.com/vectors/hacker-using-the-internet-hacked-abstract-computer-server-database-vector-id958919844?k=6&m=958919844&s=170667a&w=0&h=7ysy96P5K3Nna9YoFKPxuvSpUCwaaE7j4CXRnxY8ZRQ=');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:center;
+}
+#reservation h1{
+    color:#a30909;
+}
+#reservation label{
+    font-weight: bold;
+}
+nav li{
+    cursor: pointer;
+}
+header button:hover{
+    background-color: rgba(255,255,255,0.3);
+    color: rgba(0,0,0,0.5);
+}
+#up-button{
+    display:none;
+    position:fixed;
+    right:30px;
+    bottom:20px;
+    z-index:88;
+    outline:none;
+    background-color: transparent;
+    border:none;
+    background-image: url('../assets/arr_up.png');
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height:70px;
+    width:70px;
+    cursor:pointer;
+}
+html,body{
+    overflow-x: hidden;
+}
+.alert-danger{
+    margin-bottom:0!important;
+}
+@media (max-width: 400px) {
+    h1{
+        font-size: 32px;
+    }
+    nav+div>div.row{
+        padding-top:0px!important;
+        margin-top:0px!important;
+    }
+    form>div:last-child{
+        margin:0!important;
+    }
+}
